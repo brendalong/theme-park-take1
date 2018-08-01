@@ -32,7 +32,3 @@ Each team member is responsible for one of the following:
 1. Display the type of attraction with the attraction.
 1. Display all attractions within an area.
 
-Check this out. 
-```
-https://external-data-56670.firebaseio.com/attractions.json?orderBy=%22area_id%22&equalTo=1
-```
