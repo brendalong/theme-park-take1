@@ -11,7 +11,7 @@ Techniques include:
 * modules
     * database calls
     * each section should be collection of modules
-* components(templates) for writing to the DOM
+    * components(templates) for writing to the DOM
 
 
 
