@@ -10,22 +10,29 @@ Technologies:
 Techniques include:
 * modules
     * database calls
-    * each section should be a module
+    * each section should be collection of modules
 * components(templates) for writing to the DOM
 
 
 
 The view will include:
+Welcome section with title of park, location, description, and hours of operation.
 
-Challenge One - each team memeber is responsible for one of the following:
-1. Welcome section with title of park, location, description, and hours of operation.
+Each team member is responsible for one of the following:
 
-2. Park areas listing. Display all of the major areas of the park. Color each element based on the specific area color theme (found within the data).
+1. Park areas listing. Display all of the major areas of the park. Color each element based on the specific area color theme (found within the data).
 
-3. Display a list of all the various types of attractions found at the park.
+1. Display a list of all the various types of attractions found at the park and begin each title with a capital letter.
 
-4. Display a complete list of attractions with details.
+1. Display a complete list of attractions with descriptions.
 
 
-Challenge Two
-1. 
+## Challenges - If you DARE. You must meet MVP FIRST.
+1. Display the name of the area where the attraction is located - look at the area_id.
+1. Display the type of attraction with the attraction.
+1. Display all attractions within an area.
+
+Check this out. 
+```
+https://external-data-56670.firebaseio.com/attractions.json?orderBy=%22area_id%22&equalTo=1
+```
