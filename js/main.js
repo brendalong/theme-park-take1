@@ -1,25 +1,4 @@
 "use strict";
 
-let db = require('./db-calls.js');
-
-db.fetchParkInfo()
-   .then((result) => {
-    result.forEach((item, index) =>{
-        // console.log(index, item.description);
-    });
-});
-
-
-db.fetchAttractions()
-    .then((result) => {
-    result.forEach((item, index) =>{
-        // console.log(index, item.description);
-    });
-});
-
-db.fetchTypes()
-    .then((result) => {
-    result.forEach((item, index) =>{
-        console.log(index, item);
-    });
-});
+// This is here to get you started. You may remove or move as necessary.
+let parkInfo = require('./parkInfo.js');
