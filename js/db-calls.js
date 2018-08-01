@@ -49,6 +49,10 @@ dbCalls.fetchTypes = () => {
     });
 };
 
+dbCalls.getParkInfo = () => {
+  return parkInfo;  
+};
+
 
 
 module.exports = dbCalls;
